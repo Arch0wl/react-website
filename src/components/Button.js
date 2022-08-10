@@ -20,7 +20,7 @@ export const Button = ({
     : STYLES[0];
 
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
-  // default first position "btn--medium"
+
   return (
     <Link to="/sign-up" className="btn-mobile">
       <button
